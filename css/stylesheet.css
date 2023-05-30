@@ -1,0 +1,136 @@
+body {
+    background-color: #eee;
+    font-family: Arial, Serif, Helvetica;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    color: #114b5f;
+}
+
+.form-container {
+    position: absolute;
+    width: 400px;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.title {
+    color: #114b5f;
+    font-size: 25px;
+}
+
+.form-table {
+    color: #114b5f;
+    margin-left: 5%;
+}
+
+.form-table input {
+    padding: 5px;
+    background: transparent;
+    border: 1px solid white;
+    color: #114b5f;
+    width: 100%;
+}
+
+.form-table input[type='submit'] {
+    padding: 5px;
+    background: white;
+    border: 1px solid white;
+    color: #114b5f;
+    width: 100%;
+}
+
+.form-table input[type='radio'] {
+    width: auto;
+}
+
+
+
+
+
+
+
+
+/* 
+.form-container {
+    margin: 0;
+    padding: 30px;
+    color: #114b5f;
+}
+
+.form-container .title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #114b5f;
+}
+
+.form-container .form-table {
+    width: 100%;
+}
+
+.form-container .form-table .input-field-box {
+    max-width: 100%;
+    margin: 15px auto;
+}
+
+.form-container .form-table .input-field-box label {
+    width: 200px;
+    font-size: 15px;
+    padding: 8px 10px;
+}
+
+.form-container .form-table .input-field-box input {
+    width: 100%;
+    outline: none;
+    border: solid 1px #F7FFF7;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.form-container .form-table .input-field-box textarea {
+    resize: none;
+    width: 100%;
+    min-height: 100px;
+    outline: none;
+    border: solid 1px #F7FFF7;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.form-container .form-table .input-field-box .subject-select {
+    outline: none;
+    width: 100%;
+    border: solid 1px #F7FFF7;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease
+}
+
+.form-container .form-table .inputfield #submit {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0px;
+    background: #F7FFF7;
+    color: #114b5f;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+}
+
+.form-container .form-table .inputfield #submit:hover {
+    background: #F0CD6E;
+    color: #114b5f;
+}
+
+.form-container .form-table .inputfield:last-child {
+    margin-bottom: 0;
+}
